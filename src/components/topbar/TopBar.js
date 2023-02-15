@@ -7,13 +7,27 @@ function TopBar() {
     <>
       <div className="topbar">
         <div className="topbar-left">
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-linkedin"></i>
-          <i class="fab fa-twitter"></i>
+          <i className="topbar-social-icon fab fa-instagram"></i>
+          <i className="topbar-social-icon fab fa-facebook"></i>
+          <i className="topbar-social-icon fab fa-linkedin"></i>
+          <i className="topbar-social-icon fab fa-twitter"></i>
         </div>
-        <div className="topbar-center">Center</div>
-        <div className="topbar-right">Right</div>
+        <div className="topbar-center">
+          <ul className="topbar-list">
+            <li className="topbar-list-item">HOME</li>
+            <li className="topbar-list-item">ABOUT US</li>
+            <li className="topbar-list-item">CONTACT</li>
+            <li className="topbar-list-item">CREATED LISTED</li>
+            <li className="topbar-list-item">LOGOUT</li>
+          </ul>
+        </div>
+        <div className="topbar-right">
+          <img
+            className="topbar-profile"
+            src="https://images.pexels.com/photos/432059/pexels-photo-432059.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          />
+          <i className="topbar-search fas fa-search"></i>
+        </div>
       </div>
     </>
   );

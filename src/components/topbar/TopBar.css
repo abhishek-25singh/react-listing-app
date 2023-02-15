@@ -5,14 +5,54 @@
   position: sticky;
   top: 0;
   display: flex;
-  align-items: center; /* aligns items vertically center */
+  align-items: center; /* aligns items/content inside this parent vertically center */
   font-family: "Ubuntu", sans-serif;
 }
 
 .topbar-left,
 .topbar-right {
   flex: 3; /* occupy 3 columns from total of 12 parts */
+  display: flex;
+  align-items: center; /* aligns items/content inside this parent vertically center */
+  justify-content: center; /* aligns items/content inside this parent horizontally center */
 }
 .topbar-center {
   flex: 6; /* occupy 3 columns from total of 12 parts */
+}
+
+.topbar-profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; /*  it will make the img as circle*/
+  object-fit: cover; /* it will resize the img or video to fit to the container size i.e. 45px by 45px */
+}
+
+.topbar-social-icon {
+  margin-right: 12px;
+  cursor: pointer; /* shows hand on hover over the icon */
+  font-size: 22px;
+  color: #00b386;
+}
+
+.topbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* get rid of dots from the li tags */
+}
+
+.topbar-list-item {
+  margin-right: 22px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.topbar-search {
+  color: #00b386;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 20px;
 }
