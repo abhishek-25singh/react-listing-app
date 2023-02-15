@@ -1,0 +1,18 @@
+.topbar {
+  width: 100%;
+  height: 45px;
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center; /* aligns items vertically center */
+  font-family: "Ubuntu", sans-serif;
+}
+
+.topbar-left,
+.topbar-right {
+  flex: 3; /* occupy 3 columns from total of 12 parts */
+}
+.topbar-center {
+  flex: 6; /* occupy 3 columns from total of 12 parts */
+}

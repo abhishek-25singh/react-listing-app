@@ -1,3 +1,8 @@
+import TopBar from "./components/topbar/TopBar";
 export default function App() {
-  return <div>Listing App</div>;
+  return (
+    <div>
+      <TopBar />
+    </div>
+  );
 }
