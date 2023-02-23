@@ -18,17 +18,16 @@ function Sidebar() {
       <div className="sidebar-subsection">
         <span className="sidebar-title">categories</span>
         <ul className="sidebar-categories">
-          <li className="sidebar-categories">Buy</li>
-          <li className="sidebar-categories">Sell</li>
-          <li className="sidebar-categories">Rent</li>
-          <li className="sidebar-categories">Hostel</li>
-          <li className="sidebar-categories">B & B</li>
-          <li className="sidebar-categories">Hotel</li>
-          <li className="sidebar-categories">buy</li>
+          <li className="sidebar-category">Buy</li>
+          <li className="sidebar-category">Sell</li>
+          <li className="sidebar-category">Rent</li>
+          <li className="sidebar-category">Hostel</li>
+          <li className="sidebar-category">B & B</li>
+          <li className="sidebar-category">Hotel</li>
         </ul>
       </div>
       <div className="sidebar-subsection">
-        <span className="sidebar-title">follow us on:</span>
+        <span className="sidebar-title">follow us</span>
         <div className="sidebar-social-icons">
           <i className="sidebar-social-icon fab fa-instagram"></i>
           <i className="sidebar-social-icon fab fa-facebook"></i>
