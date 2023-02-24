@@ -19,8 +19,8 @@
   text-transform: uppercase;
   margin: 12px;
   padding: 6px;
-  border-top: 1px solid #00b386;
-  border-bottom: 1px solid #00b386;
+  border-top: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
   font-family: "Raleway", sans-serif;
   line-height: 22px;
   font-weight: 600;
@@ -65,5 +65,5 @@
   margin-right: 12px;
   cursor: pointer; /* shows hand on hover over the icon */
   font-size: 22px;
-  color: #00b386;
+  color: var(--primary-color);
 }

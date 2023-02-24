@@ -5,11 +5,6 @@ import "./Listing.css";
 function Listing() {
   return (
     <div className="listing-section">
-      All Properties
-      <ListingItem />
-      <ListingItem />
-      <ListingItem />
-      <ListingItem />
       <ListingItem />
       <ListingItem />
       <ListingItem />
