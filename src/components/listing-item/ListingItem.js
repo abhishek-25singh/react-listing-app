@@ -1,5 +1,8 @@
 import React from "react";
 import "./ListingItem.css";
+
+import { Link } from "react-router-dom";
+
 function ListingItem() {
   return (
     <div className="listing-item">
@@ -12,7 +15,9 @@ function ListingItem() {
           <span className="listing-category">Buy</span>
           <span className="listing-category">Sell</span>
         </div>
-        <span className="listing-title">Awesome Property</span>
+        <Link to="/detail/1">
+          <span className="listing-title">Awesome Property</span>
+        </Link>
         <hr />
         <span className="listing-time">2 days ago</span>
         <p className="listing-description">

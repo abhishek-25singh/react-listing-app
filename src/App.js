@@ -7,18 +7,12 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
-    // <div>
-    //   <TopBar />
-    //   {/* <Home /> */}
-    //   {/* <Detail /> */}
-    //   <CreateListing />
-    // </div>
     <Router>
       <div>
         <TopBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/detail" element={<Detail />} />
+          <Route exact path="/detail/:id" element={<Detail />} />
           <Route exact path="/create" element={<CreateListing />} />
         </Routes>
       </div>
