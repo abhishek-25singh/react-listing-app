@@ -17,7 +17,7 @@ function TopBar() {
             <li className="topbar-list-item">HOME</li>
             <li className="topbar-list-item">ABOUT US</li>
             <li className="topbar-list-item">CONTACT</li>
-            <li className="topbar-list-item">CREATED LISTED</li>
+            <li className="topbar-list-item">CREATE PROPERTY</li>
             <li className="topbar-list-item">LOGOUT</li>
           </ul>
         </div>

@@ -12,7 +12,7 @@ function ListingItem() {
           <span className="listing-category">Buy</span>
           <span className="listing-category">Sell</span>
         </div>
-        <span className="listing-title">Awesome Property Available</span>
+        <span className="listing-title">Awesome Property</span>
         <hr />
         <span className="listing-time">2 days ago</span>
         <p className="listing-description">
